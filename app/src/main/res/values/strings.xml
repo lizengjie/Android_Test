@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="first">第一个实验</string>
+    <string name="intro"> \t\t\t\t临沂连科环保科技有限公司及连凯软件（北京）有限公司由法国留学博士王成田于2001年创建， 致力于工业自动化改造和企业信息化建设。\n\t\t\t\t公司连续获得多项国家专利认证， 并通过高新技术企业认证及计算机双软认证。
+      公司配套智能研发中心，自动化设备事业部、畜牧养殖设备事业部、注塑事业部及机床加工中心，集肉制品等食品行业自动化设备、畜牧设备和注塑产品的研发、生产、销售、服务于一体。</string>
+    <string name="label">大方无隅，大境无界。 连科人精益求精，力臻完美!</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cloudlife.application.RadioButtonActivity">
+    <TextView
+        android:id="@+id/RB_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="性别"/>
+    <RadioGroup
+        android:id="@+id/RG1"
+        android:layout_below="@id/RB_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textColor="#FF02F212"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textColor="#FFF20202"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未知"
+            android:textColor="#FC646664"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RB_tv2"
+        android:layout_below="@id/RG1"
+        android:layout_marginLeft="5dp"
+
+        android:text="爱好"/>
+    <RadioGroup
+        android:id="@+id/RG2"
+        android:layout_below="@id/RB_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:button="@null"
+            android:background="@drawable/radio"
+
+            android:text="篮球"
+            android:textColor="#FF02F212" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="足球"
+            android:textColor="#FFF20202"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编程"
+            android:button="@null"
+            android:background="@drawable/radio2"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FC646664"/>
+    </RadioGroup>
+</RelativeLayout>

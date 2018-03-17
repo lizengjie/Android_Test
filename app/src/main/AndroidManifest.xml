@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cloudlife.application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TextViewActivity"
+            android:label="TextView测试" />
+        <activity
+            android:name=".ButtonActivity"
+            android:label="Button测试" />
+        <activity
+            android:name=".EditTextActivity"
+            android:label="EditText测试" />
+        <activity
+            android:name=".RadioButtonActivity"
+            android:label="RadioButton测试" />
+        <activity
+            android:name=".CheckBoxActivity"
+            android:label="CheckBox测试" />
+        <activity
+            android:name=".ImageViewActivity"
+            android:label="ImageView测试" />
+        <activity
+            android:name=".ListViewActivity"
+            android:label="ListView测试" />
+        <activity
+            android:name=".GridViewActivity"
+            android:label="GridView测试" />
+        <activity
+            android:name=".ScrollViewActivity"
+            android:label="ScrollView测试" />
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:label="RecyclerView测试" />
+        <activity
+            android:name=".WebViewActivity"
+            android:label="WebView测试" />
+        <activity
+            android:name=".ToastActivity"
+            android:label="Toast测试" />
+        <activity
+            android:name=".AlertDialogActivity"
+            android:label="AlertDialog测试" />
+        <activity
+            android:name=".ProgressBarActivity"
+            android:label="ProgressBar测试" />
+        <activity
+            android:name=".SelfdefDialogActivity"
+            android:label="SelfdefDialog测试" />
+        <activity
+            android:name=".PopupWindowActivity"
+            android:label="PopupWindow测试" />
+        <activity
+            android:name=".ActivityActivity"
+            android:label="Activity测试" />
+        <activity
+            android:name=".Lianke"
+            android:label="连科智造" />
+        <activity android:name=".madeinlk.JoinUs" />
+        <activity android:name=".madeinlk.AboutUs"></activity>
+    </application>
+
+</manifest>
